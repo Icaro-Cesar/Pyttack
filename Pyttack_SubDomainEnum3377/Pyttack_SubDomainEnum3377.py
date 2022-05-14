@@ -21,8 +21,6 @@ alvo = input("\nDigite o domínio alvo para a execução do Sub-domain Brute-For
 time.sleep(1)
 wordlist = input("\nDigite o nome sua Wordlist (se estiver em outro diretório, descreva o caminho absoluto da Wordlist) -> ")
 time.sleep(1)
-uagent = input("\nDigite o valor do User-Agent que você deseja inserir nas requisições -> ")
-time.sleep(1)
 
 
 
