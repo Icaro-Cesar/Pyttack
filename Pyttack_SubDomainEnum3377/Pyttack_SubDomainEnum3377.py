@@ -32,7 +32,6 @@ for sub in subdoms:					                        # Inicia um loop for, no qual 's
                                                             # para o domínio  informado pelo usuário.
 
     try:
-        user_agent = {'User-Agent': uagent}
         req = requests.get(bforce_subdomains)                                  # Aqui tratamos iniciamos uma exceção, solicitando ao Python para realizar as requisições Web, para cada 
         print("\n",req,"\n",req.status_code,"\n")                              # subdomínio testado pelo loop for que são valores da variável bforce_subdomains.
                                                                                # através de um script em Python. O User-Agent, fica em cargo do usuário introduzir.
